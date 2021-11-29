@@ -9,6 +9,7 @@ module.exports = function(_path) {
   var distPath = path.join(_path, 'platform', 'dist');
 
   return {
+    mode:'development',
     entry: {
       app: path.join(_path, 'platform', 'static', 'js', 'index.js')
     },
